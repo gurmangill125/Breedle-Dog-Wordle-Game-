@@ -1,0 +1,61 @@
+# Breedle - Dog Breed Guessing Game
+
+Breedle is a terminal-based game that tests your knowledge about different dog breeds. Guess the correct breed name within five attempts, and win!
+
+## Game Concept
+
+At the beginning of each game, Breedle selects a random dog breed from a predefined list. The length of the breed's name is displayed as underscores, which provides players with their first clue.
+
+The player then has five attempts to guess the breed. They input their guess in the terminal. If a breed's name consists of two words (e.g., "German Shepherd"), the player inputs them without spaces ("germanshepherd").
+
+After each guess, Breedle gives feedback:
+- If a letter is correct and in the right place, the terminal will display the letter in the underscored spot (b____r).
+- If a letter is incorrect (i.e., not in the breed name), it will be not shown at all.
+
+The game continues until the player guesses the breed correctly or exhausts all five attempts. After every game, the correct answer is revealed, regardless of whether the player was successful or not.
+
+## Installation and Running the Game
+
+Breedle is a Java-based game and requires Java to be installed to run it.
+
+1. Clone this repository to your local machine.
+
+    ```bash
+    git clone https://github.com/username/breedle.git
+    ```
+
+2. Navigate to the directory where you cloned the repository.
+
+    ```bash
+    cd breedle
+    ```
+
+3. Compile the Java files.
+
+    ```bash
+    javac *.java
+    ```
+
+4. Run the Game class file.
+
+    ```bash
+    java Game
+    ```
+
+## Rules and Guidelines
+
+- All breed names are lowercase and have no spaces.
+- The length of your guess should match the length of the breed name.
+- After each guess, you will receive feedback. If a character is in the correct position, it will be revealed in the breed name.
+
+## Contributing
+
+Your contributions are always welcome! Please have a look at the contribution guidelines first. 🎉
+
+### TODO
+
+- [ ] Add more dog breeds
+- [ ] Enhance UI
+- [ ] Implement levels of difficulty
+
+Happy Guessing!
